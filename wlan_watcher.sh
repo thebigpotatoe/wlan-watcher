@@ -19,7 +19,7 @@ do
     # Test the output of the nmcli command
     if [ "$?" -ne 0 ];
     then 
-        logger "WLAN is down by the looks, rebooting whole system..."
+        logger "WLAN is down by the looks ($wlan_failuires) ..."
         wlan_failuires=$((wlan_failuires+1))
     fi
 
