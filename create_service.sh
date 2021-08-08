@@ -7,7 +7,7 @@ then
     printf "Stopping previous versions of the service ... "
     systemctl stop wlan_watcher.service
     printf "done\n"
-done
+fi
 
 # Copy the service file into /etc/systemd/system
 printf "Creating service file in /etc/systemd/service ... "
