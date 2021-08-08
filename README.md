@@ -15,6 +15,7 @@ To run simply download this repo and run the `create_service.sh` script:
 ``` shell
 
 $ git clone https://github.com/thebigpotatoe/wlan-watcher.git
+$ cd wlan-watcher
 $ sudo /bin/sh create_service.sh
 
 ```
