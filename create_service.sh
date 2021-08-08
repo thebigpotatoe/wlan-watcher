@@ -29,3 +29,8 @@ printf "done\n"
 printf "Allowing service to run at boot ... "
 sudo systemctl enable --now wlan_watcher.service
 printf "done\n"
+
+# Reload daemon
+printf "Reloading Daemon ... "
+systemctl daemon-reload
+printf "done\n"
